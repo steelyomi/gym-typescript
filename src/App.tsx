@@ -1,11 +1,11 @@
+import Navbar from "@/scenes/navbar";
 
+const App = () =>  {
 
-function App() {
-
-  return 
+  return (
     <div className="app">
-      app
-    </div>
+      <Navbar />
+    </div>)
     }
 
 export default App;
